@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Lesson</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<select name="" id="selector">
+    <option value="">default</option>
+    <option value="">Frontend</option>
+    <option value="">Backend</option>
+    <option value="">Mobile development</option>
+    <option value="">ERP developer</option>
+</select>
+<br><input type="range" value="0" min="0" max="20" step="1" oninput="expControl()" id="expRange">
+<br>Work experience: <input type="text" id="showExp" size="1">
+<br><button id="buttonId" onclick="showValue()">show data</button>
+<br><textarea id="result" ></textarea>
+<br><input type="range" value="500" min="0" max="2500" step="1" oninput="salaryCount()" id="salaryRange">
+<div id="salaryTest"></div>
+<script src="scriptSelector.js"></script>
+<script src="scriptExp.js"></script>
+
+</body>
+</html>
