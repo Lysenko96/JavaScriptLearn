@@ -1,0 +1,14 @@
+.menu{
+    border: 4px solid #88ABEE;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    cursor:pointer;
+}
+.menu  .drop-item{
+    width: 150px;
+    height: 120px;
+    background: blanchedalmond;
+    position: absolute;
+    cursor: pointer;
+}
