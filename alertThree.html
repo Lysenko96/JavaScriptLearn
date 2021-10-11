@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>title</title>
+</head>
+
+<body>
+    <script>
+        var res = prompt("Who is?");
+        if (res == "admin") {
+            var pass = prompt("Pass?");
+            if (pass == "I main") {
+                alert("Hello");
+            } else if (pass == "exit") {
+                alert(pass);
+            } else {
+                alert("Don't right password");
+            }
+        } else if (res == "exit") {
+            alert(res);
+        } else {
+            alert("I don't know you");
+        }
+        alert(alert(1) || 2 || alert(3));
+        var age = prompt("Enter age: ");
+        if (age >= 25 && age <= 90) {
+            alert(age);
+        } else if (age < 25 || age > 90) {
+            alert("Not: " + age);
+        }
+        if (!(age >= 25) && !(age > 90)) {
+            alert("Right: " + age);
+        }
+
+    </script>
+</body>
+
+</html>
